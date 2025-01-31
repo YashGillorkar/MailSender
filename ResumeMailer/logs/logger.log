@@ -1,0 +1,134 @@
+2025-01-31T16:22:16.921+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] c.y.r.ResumeMailerApplication            : Starting ResumeMailerApplication using Java 17.0.8.1 with PID 27304 (C:\Users\mkgil\AspectOrientedProgrammingAndSpringSecurity\ResumeMailer\target\classes started by mkgil in C:\Users\mkgil\AspectOrientedProgrammingAndSpringSecurity\ResumeMailer)
+2025-01-31T16:22:16.929+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] c.y.r.ResumeMailerApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-01-31T16:22:17.003+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-31T16:22:17.004+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-31T16:22:17.877+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-31T16:22:17.954+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2025-01-31T16:22:18.587+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1111 (http)
+2025-01-31T16:22:18.606+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-31T16:22:18.607+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-31T16:22:18.672+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-31T16:22:18.672+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1667 ms
+2025-01-31T16:22:18.845+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-31T16:22:18.960+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-31T16:22:19.023+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-31T16:22:19.482+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-31T16:22:19.525+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-31T16:22:19.724+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ac04e6e
+2025-01-31T16:22:19.726+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-31T16:22:19.784+05:30  WARN 27304 --- [ResumeMailer] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-31T16:22:19.810+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.8
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-31T16:22:20.752+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-31T16:22:20.836+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-31T16:22:21.136+05:30  WARN 27304 --- [ResumeMailer] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-31T16:22:21.520+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-31T16:22:21.577+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1111 (http) with context path '/'
+2025-01-31T16:22:21.591+05:30  INFO 27304 --- [ResumeMailer] [restartedMain] c.y.r.ResumeMailerApplication            : Started ResumeMailerApplication in 5.24 seconds (process running for 6.248)
+2025-01-31T16:22:57.775+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-31T16:22:57.776+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-31T16:22:57.777+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-31T16:22:58.080+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: jobs@talensiyaconsulting.com
+2025-01-31T16:23:13.949+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: jobs@talensiyaconsulting.com
+2025-01-31T16:23:13.950+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: careers@mavinsys.com
+2025-01-31T16:23:28.493+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: careers@mavinsys.com
+2025-01-31T16:23:28.493+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: srishayr3344@gmail.com
+2025-01-31T16:23:43.045+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: srishayr3344@gmail.com
+2025-01-31T16:23:43.046+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: apurva.joshi@apptware.com
+2025-01-31T16:23:57.860+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: apurva.joshi@apptware.com
+2025-01-31T16:23:57.861+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: divya.taneja@qtsolv.com
+2025-01-31T16:24:12.037+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: divya.taneja@qtsolv.com
+2025-01-31T16:24:12.038+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: monika.r@iglobuscc.com
+2025-01-31T16:24:27.003+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: monika.r@iglobuscc.com
+2025-01-31T16:24:27.004+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: Mani@ewarriorstechsolutions.com
+2025-01-31T16:24:41.152+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: Mani@ewarriorstechsolutions.com
+2025-01-31T16:24:41.153+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: khalid@spruceinfotech.com
+2025-01-31T16:24:56.028+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: khalid@spruceinfotech.com
+2025-01-31T16:24:56.029+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: gayathri@realtekconsulting.net
+2025-01-31T16:25:10.582+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: gayathri@realtekconsulting.net
+2025-01-31T16:25:10.583+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: hr@cloudisai.com
+2025-01-31T16:25:24.911+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: hr@cloudisai.com
+2025-01-31T16:25:24.912+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: saisrinivas.r@mavinsys.com
+2025-01-31T16:25:39.125+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: saisrinivas.r@mavinsys.com
+2025-01-31T16:25:39.127+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: Dilan@nexishr.com
+2025-01-31T16:25:53.387+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: Dilan@nexishr.com
+2025-01-31T16:25:53.388+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: akshay.kothawade@ampcustech.com
+2025-01-31T16:26:08.285+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: akshay.kothawade@ampcustech.com
+2025-01-31T16:26:08.285+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: Placementsla@skillslearn.in
+2025-01-31T16:26:22.412+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: Placementsla@skillslearn.in
+2025-01-31T16:26:22.413+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: kanishtha.mathur@qtsolv.com
+2025-01-31T16:26:39.878+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: kanishtha.mathur@qtsolv.com
+2025-01-31T16:26:39.879+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: nawaz@o2finfosolutions.com
+2025-01-31T16:26:54.151+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: nawaz@o2finfosolutions.com
+2025-01-31T16:26:54.152+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: bismi.mol@terrificminds.com
+2025-01-31T16:27:08.320+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: bismi.mol@terrificminds.com
+2025-01-31T16:27:08.321+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: Khalid@spruceinfotech.com
+2025-01-31T16:27:22.579+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: Khalid@spruceinfotech.com
+2025-01-31T16:27:22.579+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: careers@ithena.ai
+2025-01-31T16:27:36.724+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: careers@ithena.ai
+2025-01-31T16:27:36.725+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: sujal.adhikari@prakharsoftwares.com
+2025-01-31T16:27:50.945+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: sujal.adhikari@prakharsoftwares.com
+2025-01-31T16:27:50.946+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: varun.madesh@hirexa.com
+2025-01-31T16:28:05.804+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: varun.madesh@hirexa.com
+2025-01-31T16:28:05.805+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: shobhit.sharma@innorenovate.com
+2025-01-31T16:28:19.946+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: shobhit.sharma@innorenovate.com
+2025-01-31T16:28:19.946+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: team@headcount.biz
+2025-01-31T16:28:34.844+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: team@headcount.biz
+2025-01-31T16:28:34.845+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: ruby@usetllc.com
+2025-01-31T16:28:48.982+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: ruby@usetllc.com
+2025-01-31T16:28:48.983+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: Gaurav.2.Kumar@coforge.com
+2025-01-31T16:29:03.416+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: Gaurav.2.Kumar@coforge.com
+2025-01-31T16:29:03.417+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: alwyn@acceskeys.com
+2025-01-31T16:29:17.556+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: alwyn@acceskeys.com
+2025-01-31T16:29:17.557+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: lakshman.n@contingentpros.com
+2025-01-31T16:29:32.375+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: lakshman.n@contingentpros.com
+2025-01-31T16:29:32.375+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: Parth.sinha@qtsolv.com
+2025-01-31T16:29:46.682+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: Parth.sinha@qtsolv.com
+2025-01-31T16:29:46.683+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: prakrity.srivastava@qtsolv.com
+2025-01-31T16:30:01.705+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: prakrity.srivastava@qtsolv.com
+2025-01-31T16:30:01.706+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: Aliya.t@apideltech.com
+2025-01-31T16:30:16.648+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: Aliya.t@apideltech.com
+2025-01-31T16:30:16.649+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: haja.i@twsol.com
+2025-01-31T16:30:30.829+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: haja.i@twsol.com
+2025-01-31T16:30:30.830+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: uma@anveta.com
+2025-01-31T16:30:45.151+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: uma@anveta.com
+2025-01-31T16:30:45.151+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: anamika@spruceinfotech.com
+2025-01-31T16:30:59.662+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: anamika@spruceinfotech.com
+2025-01-31T16:30:59.663+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: admin@skillslearn.in
+2025-01-31T16:31:14.207+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: admin@skillslearn.in
+2025-01-31T16:31:14.208+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: singh.pundeir@capgemini.com
+2025-01-31T16:31:28.660+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: singh.pundeir@capgemini.com
+2025-01-31T16:31:28.661+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: riya.chapagain@ust.com
+2025-01-31T16:31:42.775+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: riya.chapagain@ust.com
+2025-01-31T16:31:42.776+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: sujata.saha@orcapod.work
+2025-01-31T16:31:57.010+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: sujata.saha@orcapod.work
+2025-01-31T16:31:57.011+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: ashwini.k@srsconsultinginc.com
+2025-01-31T16:32:11.341+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: ashwini.k@srsconsultinginc.com
+2025-01-31T16:32:11.342+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: ramya@ximaxsolutions.com
+2025-01-31T16:32:25.687+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: ramya@ximaxsolutions.com
+2025-01-31T16:32:25.688+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: jobi@avpeoplekart.com
+2025-01-31T16:32:39.984+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: jobi@avpeoplekart.com
+2025-01-31T16:32:39.985+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: sreekanth@burgeonits.net
+2025-01-31T16:32:54.281+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: sreekanth@burgeonits.net
+2025-01-31T16:32:54.282+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: kowsalya@realtekconsulting.net
+2025-01-31T16:33:08.421+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: kowsalya@realtekconsulting.net
+2025-01-31T16:33:08.422+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: aman.sharma@qtsolv.com
+2025-01-31T16:33:22.861+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: aman.sharma@qtsolv.com
+2025-01-31T16:33:22.861+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: anjali.soma@dataqinc.com
+2025-01-31T16:33:36.932+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: anjali.soma@dataqinc.com
+2025-01-31T16:33:36.932+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: khitesh@futransolutions.com
+2025-01-31T16:33:51.083+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: khitesh@futransolutions.com
+2025-01-31T16:33:51.083+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Sending email to: skylark.sandhya12@gmail.com
+2025-01-31T16:34:05.262+05:30  INFO 27304 --- [ResumeMailer] [http-nio-1111-exec-1] c.y.r.service.EmailDetailsServiceImpl    : Email sent successfully to: skylark.sandhya12@gmail.com
+2025-01-31T16:37:58.131+05:30  INFO 27304 --- [ResumeMailer] [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-01-31T16:37:58.134+05:30  INFO 27304 --- [ResumeMailer] [RMI TCP Connection(19)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-31T16:37:58.236+05:30  INFO 27304 --- [ResumeMailer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-31T16:37:58.242+05:30  INFO 27304 --- [ResumeMailer] [RMI TCP Connection(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-31T16:37:58.246+05:30  INFO 27304 --- [ResumeMailer] [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-31T16:37:58.249+05:30  INFO 27304 --- [ResumeMailer] [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
